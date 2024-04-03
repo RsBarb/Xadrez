@@ -95,7 +95,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(pos.linha + 1, pos.coluna - 1);
+                pos.definirValores(pos.linha - 1, pos.coluna + 1);
             }
 
             // suldoeste
